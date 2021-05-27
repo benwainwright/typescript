@@ -111,6 +111,12 @@ So you would define this object as having an **explicit type**. This would now m
 
 The TL;DR of this section is that TypeScript ensures that each data object has a **single source of truth to help a developer understand its shape**.
 
+## Use in industry
+
+In my experience on the job market this last few weeks, most employers I was speaking to make at least _some_ use of TypeScript, and some use it end to end. In the JavaScript domain it
+is used more and more and getting to the point where you are all comfortable enough using TypeScript that it is not a barrier will make you more employable.
+If you leave the BBC, its unlikely you are going to be able to avoid it.
+
 ## Best Practises
 
 ### Don't ever use `any`, use `unknown` instead
