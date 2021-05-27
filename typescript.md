@@ -178,7 +178,7 @@ const data = await myClient.get(); // Assuming this is a nice easy client that j
 const theThing: unknown = JSON.parse(data);
 ```
 
-So now we've typed it as `unknown`, we are safe from doing anything dangerous with it.
+So now we've typed it as `unknown`, we are safe from doing anything dangerous with it at runtime.
 
 ```TypeScript
 console.log(theThing.scales) // Error! Property of type 'scales' does not exist on type 'unknown'
