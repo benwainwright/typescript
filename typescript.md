@@ -34,7 +34,7 @@ If you use TypeScript, you will spot these errors
 
 If you don't, you will spot them
 
-- In your tests **if they are good enough** or worse
+- In your tests _if they are good enough_ or worse
 - In log messages when an error has occurred **in production**
 
 ### Write Less Code
