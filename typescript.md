@@ -1,10 +1,10 @@
 # Notes on TypeScript
 
-## Editor Support
+### Editor Support
 
 - Because **everything has a type** in TypeScript, autosuggestions from your editor will generally be more complete, consistent and useful.
 
-## Type Errors
+### Type Errors
 
 A "type error" is when you an incorrect assumption is made about the shape of a particular piece of data. So for example:
 
@@ -35,15 +35,15 @@ If you don't, you will spot them
 - In your tests **if they are good enough** or worse
 - In log messages when an error has occurred **in production**
 
-## Write Less Code
+### Write Less Code
 
 In JavaScript, it is good practise to code defensively and assume that any function you write will be misused, and so you really should be handling all possible inputs (e.g. what happens if I pass in `undefined` a `null`, a negative number, or an object that is the wrong shape). In practise, we all know that this doesn't always happen, but in TypeScript, _you don't have to_.
 
 You tell the compiler that a specific function can **only take a string**, and so long as you follow certain best practises, this is actually **guaranteed**, which means you no longer need to write logic to handle other cases, or tests to validate the error handling.
 
-## Readability
+### Readability
 
-### Duck Typing vs Explicit Typing
+#### Duck Typing vs Explicit Typing
 
 JavaScript uses what is known as [duck typing](https://en.wikipedia.org/wiki/Duck_typing) ("If it walks like a duck, and quacks like a duck, it must be a duck"). This is the general concept that you establish the type of something by its properties.
 
@@ -109,9 +109,9 @@ So you would define this object as having an **explicit type**. This would now m
 
 The TL;DR of this section is that TypeScript ensures that each data object has a **single source of truth to help a developer understand its shape**.
 
-# Best Practises
+## Best Practises
 
-## Don't ever use `any`, use `unknown` instead
+### Don't ever use `any`, use `unknown` instead
 
 In TypeScript, all types are assignable to `any` and anything typed as `any` is assignable to anything else. The problem with this is that it **destroys the guarantees provided by the TypeScript compiler**, which means the assumptions I discussed above no longer hold. Consider this:
 
