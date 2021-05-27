@@ -53,7 +53,7 @@ So for example
 
 ```JavaScript
 const sum = (thing) => {
-	return thing.reduce((accum, item) => accum + item);
+   return thing.reduce((accum, item) => accum + item);
 }
 ```
 
