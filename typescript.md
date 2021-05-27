@@ -8,7 +8,7 @@
 
 ### Type Errors
 
-A "type error" is when you an incorrect assumption is made about the shape of a particular piece of data. So for example:
+A "type error" is when an incorrect assumption is made about the shape of a particular piece of data. So for example:
 
 ```JavaScript
 const foo = { bar: "value" };
