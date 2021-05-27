@@ -1,5 +1,7 @@
 # Notes on TypeScript
 
+## Reasons to Use
+
 ### Editor Support
 
 - Because **everything has a type** in TypeScript, autosuggestions from your editor will generally be more complete, consistent and useful.
