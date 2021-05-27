@@ -39,9 +39,9 @@ If you don't, you will spot them
 
 ### Write Less Code
 
-In JavaScript, it is good practise to code defensively and assume that any function you write will be misused, and so you really should be handling all possible inputs (e.g. what happens if I pass in `undefined` a `null`, a negative number, or an object that is the wrong shape). In practise, we all know that this doesn't always happen, but in TypeScript, _you don't have to_.
+In JavaScript, it is good practise to code defensively and assume that any function you write will be misused, and so you really should be handling all possible inputs (e.g. what happens if I pass in `undefined` a `null`, a negative number, or an object that is the wrong shape). In practise, we all know that this doesn't always happen, 
 
-You tell the compiler that a specific function can **only take a string**, and so long as you follow certain best practises, this is actually **guaranteed**, which means you no longer need to write logic to handle other cases, or tests to validate the error handling.
+In TypeScript, _you don't have to_. You tell the compiler that a specific function can **only take a string**, and so long as you follow certain best practises, this is actually **guaranteed**, which means you no longer need to write logic to handle other cases, or tests to validate the error handling.
 
 ### Readability
 
