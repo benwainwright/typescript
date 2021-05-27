@@ -149,7 +149,7 @@ Now we are cooking with gas: The build/editor picked up an error that might have
 
 _What if you have data coming into your program that has an unknown shape? For example, from an API?"_
 
-This is where `unknown` comes in. Similar to `any`, all types are assignable to something typed as `unknown`, but _only something typed as `any` or `unknown` is assignable to something already typed as `unknown`. Why is this useful? It means it can be passed around, but **before you can do anything with it that might be incorrect, you first have to give the TypeScript compiler some way of establishing its type**
+This is where `unknown` comes in. Similar to `any`, all types are assignable to something typed as `unknown`, but _only something typed as `any` or `unknown` is assignable to something already typed as `unknown`_. Why is this useful? It means it can be passed around, but **before you can do anything with it that might be incorrect, you first have to give the TypeScript compiler some way of establishing its type**
 
 How do we do that? We use **user defined type guards**
 
