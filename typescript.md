@@ -107,7 +107,7 @@ foo.bap = "more values"; // Yay! No error!
 
 A really good example of the problem described in this section can be found in the presentation layer. Presentation Layer "middleware" modules are passed in a `context` object, which the middleware is expected to then mutate in order to compose the page. Finding out what properties are available to mutate is guesswork - you have to read other middleware, or read the code that renders the page based on this context object.
 
-So you would define this object as having an **explicit type**. This would now mean your editor will autosuggest absolutely everything that is a available, and you could press F12 within VS Code to jump to that type in order to read it.
+If you were using TypeScript you would define this object as having an **explicit type**. This would now mean your editor will autosuggest absolutely everything that is a available, and you could press F12 within VS Code to jump to that type in order to read it.
 
 The TL;DR of this section is that TypeScript ensures that each data object has a **single source of truth to help a developer understand its shape**.
 
